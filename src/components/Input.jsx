@@ -31,9 +31,10 @@ function Input(){
                     onChange={handleChange} 
                     type="text" 
                     placeholder="What you want to achieve today?" 
+                    className="mb-3"
                     />
                 <br />
-                <button type="submit">Add</button>
+                <button type="submit" className="border-solid border-primary">Add</button>
             </form>
             <br />
             {tasks.map((task) => (

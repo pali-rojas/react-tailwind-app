@@ -8,9 +8,11 @@ import Footer from "./components/Footer";
 export default function App() {
   
   return (
-    <div className="App bg-purple">
-      <Header />
-      <Input />    
+    <div className="App place-items-center">
+      <div className="bg-white p-10 rounded-lg shadow-md">
+        <Header />
+        <Input /> 
+      </div>   
       <Footer />
     </div>
   );

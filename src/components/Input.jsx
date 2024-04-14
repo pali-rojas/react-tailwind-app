@@ -25,7 +25,7 @@ function Input(){
     };      
 
     return(
-        <div>
+        <div className="text-center">
             <form onSubmit={handleOnSubmit}>
                 <input 
                     onChange={handleChange} 

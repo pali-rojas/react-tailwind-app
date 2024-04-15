@@ -29,6 +29,7 @@ function Input(){
             <form onSubmit={handleOnSubmit}>
                 <input 
                     onChange={handleChange} 
+                    value={inputTask}
                     type="text" 
                     placeholder="What you want to achieve today?" 
                     className="mb-3"
